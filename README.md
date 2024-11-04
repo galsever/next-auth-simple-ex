@@ -19,5 +19,6 @@ These files serve for authentication:
 - middleware.ts
 - prisma.ts
 - prisma/schema.prisma
+- api/auth/[...nextauth]/route.ts
 
 The Google & Nodemailer Provider are split on purpose, because otherwise next-auth doesn't work
