@@ -21,4 +21,7 @@ These files serve for authentication:
 - prisma/schema.prisma
 - api/auth/[...nextauth]/route.ts
 
+
+localhost:3000 is accessible without a session localhost:3000/dashboard is not
+
 The Google & Nodemailer Provider are split on purpose, because otherwise next-auth doesn't work
